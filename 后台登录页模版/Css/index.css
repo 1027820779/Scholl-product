@@ -1,0 +1,228 @@
+@charset "utf-8";
+/*@font-face {*/
+    /*font-family: tor;*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*src: url('../font/UKIJTor.ttf');*/
+    /*src: local('UKIJTor'), local('UKIJTor'), url('../font/UKIJTor.ttf');*/
+/*}*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+body{
+    background-color: #F0F0F0;
+}
+
+/******header*******/
+.header{
+    width:100%;
+    height: 130px;
+    background-color:#222222;
+    float: left;
+}
+
+.wrap{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    background-image: url("../Images/sch_logo.png");
+    float: left;
+    margin-top: 30px;
+}
+.names{
+    width: 300px;
+    height: 70px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.names p{
+    width: 100%;
+    height: 50%;
+    /* background: blue; */
+    font-size: 22px;
+    color: white;
+}
+.names #p1{
+    line-height: 45px;
+
+}
+.names #p2{
+    line-height: 22px;
+}
+.wrap a{
+    float: right;
+    color: white;
+    margin-top: 70px
+}
+/******body*******/
+.body{
+    width:100%;
+    height: 745px;
+    background: #F0F0F0;
+    border-bottom: 2px solid #222222;
+    float: left;
+}
+.main{
+    width: 958px;
+    height: 380px;
+    margin: 178px auto 0px;
+    border: 1px solid #E3E3E3;
+}
+
+.ram{
+    width: 479px;
+    height: 380px;
+    background: #FBFBFB;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.left div{
+    background: rgb(34, 34, 34);
+    height: 40px;
+    width: 160px;
+    margin-left: 20px;
+    margin-top: -10px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+.left img{
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.right .info{
+    width: 100%;
+    height: 300px;
+    margin-top: 48px;
+    border-left: 1px solid #E3E3E3;
+}
+.info li{
+    float: right;
+    width: 360px;
+    height: 48px;
+    margin-right: 60px;
+}
+.info #li1{
+    background: #F0F0F0;
+    border: 1px solid rgb(217, 217, 217);
+}
+
+.info #li1 div{
+    width: 28px;
+    height: 28px;
+    float: left;
+    background-image: url("../Images/user_ico.png");
+    background-repeat: no-repeat;
+    /* background: red; */
+    margin-top: 10px;
+    background-size: cover;
+    margin-left: 10px;
+}
+.info #li1 input{
+    width: 306px;
+    height: 38px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    color: rgb(138, 138, 138);
+    background: none;
+    direction: ltr;
+    text-indent: 10px;
+}
+.info #li2{
+    margin-top: 20px;
+    background: #F0F0F0;
+    border: 1px solid rgb(217, 217, 217);
+
+}
+.info #li2 div{
+    width: 28px;
+    height: 28px;
+    float: left;
+    background-image: url("../Images/key_ico.png");
+    background-repeat: no-repeat;
+    /* background: red; */
+    margin-top: 10px;
+    background-size: cover;
+    margin-left: 10px;
+}
+.info #li2 input{
+    width: 306px;
+    height: 38px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    color: rgb(138, 138, 138);
+    background: none;
+    direction: ltr;
+    text-indent: 10px;
+}
+.info #li3{
+    margin-top: 20px;
+}
+.info #li3 input{
+    width: 130px;
+    height: 41px;
+    margin-top: 9px;
+    border: 1px solid rgb(242, 242, 242);
+    outline: none;
+    font-size: 20px;
+    color: rgb(138, 138, 138);
+    background: rgb(255, 255, 255);
+    direction: ltr;
+    text-indent: 10px;
+    float: left;
+ }
+.info #li3 img{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.info #li4{
+    margin-top: 20px;
+}
+.info #li4 input{
+    border: none;
+    background: rgb(34, 34, 34);
+    width: 360px;
+    height: 48px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+/******footer*******/
+.footer{
+    width:100%;
+    height: 100px;
+    background: #F0F0F0;
+    float: left;
+    text-align: center;
+}
+.footer p{
+    color: rgb(103, 103, 103);
+    font-size: 13px;
+    margin-top: 40px;
+}
